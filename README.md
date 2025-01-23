@@ -17,3 +17,14 @@ npx @biomejs/biome init
 }
 }
 ==================================================
+== Criar o gitignore =============================
+== Criar docker-compose.yml ======================
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.23.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+== ALERTA - CASO RETORNE ERRO ====================
+sudo lsof -i :5432
+sudo kill -9 <PID>
+==================================================
+"dev": "tsx watch --env-file .env src/infra/http/server.ts"
+npm i @fastify/swagger @fastify/swagger-ui
+npm i @fastify/multipart
