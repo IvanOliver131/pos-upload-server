@@ -35,3 +35,4 @@ npm i dotenv-cli -D
 npm i drizzle-orm
 npm i drizzle-kit -D
 npm i postgres
+npm i uuidv7
