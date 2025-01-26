@@ -36,3 +36,5 @@ npm i drizzle-orm
 npm i drizzle-kit -D
 npm i postgres
 npm i uuidv7
+== Configurar o client.ts =========================
+npm i @aws-sdk/lib-storage @aws-sdk/client-s3
