@@ -38,3 +38,4 @@ npm i postgres
 npm i uuidv7
 == Configurar o client.ts =========================
 npm i @aws-sdk/lib-storage @aws-sdk/client-s3
+em testes -> // podemos usar pre ou post antes ou depois do test
