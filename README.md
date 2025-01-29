@@ -140,6 +140,12 @@ npm i @faker-js/faker -D
 npm i dayjs
 ```
 
+### Biblioteca para exportação de dados
+
+```sh
+npm i csv-stringify
+```
+
 ## Observação para Testes
 
 No `Vitest`, podemos usar `pre` ou `post` antes ou depois de cada `test`.
