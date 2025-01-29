@@ -39,3 +39,5 @@ npm i uuidv7
 == Configurar o client.ts =========================
 npm i @aws-sdk/lib-storage @aws-sdk/client-s3
 em testes -> // podemos usar pre ou post antes ou depois do test
+npm i @faker-js/faker -D
+npm i dayjs
