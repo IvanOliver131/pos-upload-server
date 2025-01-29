@@ -13,6 +13,7 @@ import fastifySwagger from '@fastify/swagger'
 import fastifySwaggerUi from '@fastify/swagger-ui'
 import { fastifyCors } from '@fastify/cors'
 import { transformSwaggerSchema } from './routes/transform-swagger-schema'
+import { getUploadsRoute } from './routes/get-uploads'
 
 const server = fastify()
 
@@ -51,6 +52,7 @@ server.register(fastifySwaggerUi, {
 
 // ROTAS
 server.register(uploadImageRoute)
+server.register(getUploadsRoute)
 
 const serverConfig = { port: 3333, host: '0.0.0.0' }
 
