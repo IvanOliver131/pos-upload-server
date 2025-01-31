@@ -150,6 +150,12 @@ npm i csv-stringify
 
 No `Vitest`, podemos usar `pre` ou `post` antes ou depois de cada `test`.
 
+### Biblioteca para buildar a aplicação
+
+```sh
+npm i tsup -D
+```
+
 ---
 
 Com essas configurações, seu ambiente estará pronto para desenvolvimento. Certifique-se de seguir cada passo corretamente!
