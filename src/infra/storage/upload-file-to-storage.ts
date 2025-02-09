@@ -28,7 +28,7 @@ export async function uploadFileToStorage(input: UploadFileToStorageInput) {
   const sanitizedFileNameWithExtension = sanitizedFileName.concat(fileExtension)
 
   // Uso o folder para saber em qual pasta vai ser feito o upload do arquivo
-  const uniqueFileName = `${folder}/${randomUUID()}-${sanitizedFileNameWithExtension}}`
+  const uniqueFileName = `${folder}/${randomUUID()}-${sanitizedFileNameWithExtension}`
 
   // Realiza o upload dentro da AWS
   const upload = new Upload({
